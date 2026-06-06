@@ -1,33 +1,32 @@
 ## Lab 1 - Introduction to AWS Identity and Access Management (IAM)
 
-## Title:
+## Title
 Introduction to AWS Identity and Access Management (IAM)
 
 
-## Objective:
+## Objective
 The objective of this lab is to understand how AWS Identity and Access Management (IAM) controls authentication and authorization in AWS. The lab focuses on exploring IAM users and groups, analyzing attached policies, assigning users to appropriate groups based on organizational roles, and validating permissions by testing service access.
 
 
-## Prerequisites:
+## Prerequisites
 - Basic understanding of cloud computing concepts  
 - AWS Academy Lab access  
 - Web browser with internet connectivity  
 
 
-## Tools Used:
+## Tools Used
 - AWS Management Console  
 - AWS Identity and Access Management (IAM)  
 - Amazon EC2  
 - Amazon S3  
 
 
-## Tasks Performed:
+## Tasks Performed
 
 ### Task 1: Explore IAM Users and Groups
 - Reviewed pre-created IAM users: user-1, user-2, user-3  
 - Explored IAM groups: EC2-Admin, EC2-Support, S3-Support  
 - Inspected managed and inline policies attached to groups  
-
 **Screenshot:**  
 
 <img width="1350" height="592" alt="image" src="https://github.com/user-attachments/assets/9f1bf871-59cb-4de1-ac4a-73d58d850e19" />
@@ -63,7 +62,7 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 <img width="1341" height="599" alt="image" src="https://github.com/user-attachments/assets/74c1cbe1-1176-4045-ad1e-b01e0542ead4" />
 
 
-## Workflow:
+## Workflow
 1. Accessed IAM console and reviewed users and groups.  
 2. Inspected policy permissions attached to groups.  
 3. Assigned users to groups based on their roles.  
@@ -71,11 +70,12 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 5. Validated permissions by accessing AWS services.  
 
 
-## Learning Outcomes:
+## Learning Outcomes
 - Understood the role of IAM in AWS security.  
 - Learned how IAM users, groups, and policies interact.  
 - Gained practical experience implementing role-based access control.  
 - Verified permission enforcement through real-time service testing.  
-## Result:
-The tasks was executed successfully.
 
+
+## Conclusion
+This lab provided hands-on experience with AWS IAM by demonstrating how organizations manage secure access to cloud resources. Assigning users to groups with predefined policies simplified permission management and ensured role-based access control across AWS services.
